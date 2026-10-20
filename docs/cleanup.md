@@ -25,7 +25,7 @@ The CloudFront distribution uses Origin Access Control (OAC) to retrieve website
 4. Confirm the action.
 5. Wait until the configuration change finishes deploying and the distribution is disabled.
 
-**Status:** Pending
+**Status:** Done
 
 ### Step 2 — Delete CloudFront Distribution
 
@@ -34,7 +34,7 @@ The CloudFront distribution uses Origin Access Control (OAC) to retrieve website
 3. Confirm deletion.
 4. Verify the distribution no longer appears in the CloudFront distribution list.
 
-**Status:** Pending
+**Status:** Done
 
 ### Step 3 — Empty the S3 Bucket
 
@@ -45,7 +45,7 @@ The CloudFront distribution uses Origin Access Control (OAC) to retrieve website
 5. Confirm the operation.
 6. Verify the bucket contains no remaining objects or object versions.
 
-**Status:** Pending
+**Status:** Done
 
 ### Step 4 — Delete the S3 Bucket
 
@@ -55,7 +55,7 @@ The CloudFront distribution uses Origin Access Control (OAC) to retrieve website
 4. Confirm the deletion.
 5. Verify the bucket no longer appears in the bucket list.
 
-**Status:** Pending
+**Status:** Done
 
 ## 4. Additional Verification
 
@@ -73,10 +73,10 @@ CloudFront invalidation history and cached responses do not require separate cle
 
 | Resource | Final Status |
 |---|---|
-| CloudFront distribution | Pending |
-| S3 website bucket | Pending |
-| Project-specific OAC, if applicable | Pending verification |
-| Billing review | Pending |
+| CloudFront distribution | Done |
+| S3 website bucket | Done |
+| Project-specific OAC, if applicable | Done |
+| Billing review | Done |
 
 Update this table after completing and verifying the actual cleanup operations.
 
